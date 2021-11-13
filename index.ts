@@ -4,6 +4,8 @@ import { MainClient as PokeClient } from 'pokenode-ts';
 
 // const qrcode = require('qrcode-terminal');
 // const { Client } = require('whatsapp-web.js');
+
+// Use npm install --dev to install all dependencies from the package.json file
 // Use ctrl+shift+b and use tsc:watch to make any changes automatically compile to javascript
 const client = new WhatsAppClient({});
 const api = new PokeClient();
